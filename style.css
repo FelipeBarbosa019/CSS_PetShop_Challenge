@@ -1,0 +1,264 @@
+/* --------------- Reset --------------- */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------- Header --------------- */
+header {
+    width: 100vw;
+    height: 117.47px;
+    background-color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+#logo {
+    width: 271.79px;
+    height: 97.47px;
+}
+
+#maps {
+    width: 62px;
+    height: 62px; 
+}
+
+#adress {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.text-blue {
+    color: #2554BD;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+}
+
+#text-black {
+    color: #000000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+}
+
+#microscope {
+    width: 52px;
+    height: 52px;
+}
+
+#phone {
+    width: 62px;
+    height: 62px;
+}
+
+#div-phone {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    gap: 10px;
+}
+
+.btn-contact {
+    width: 238.75px;
+    height: 45px;
+    border-style: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btn-contact:hover {
+    opacity: 0.6;
+}
+
+
+/* --------------- Menu --------------- */
+#menu {
+    background-color: #2554BD;
+    color: #FFFFFF;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 50px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+/* --------------- Petground --------------- */
+#petground {
+    background-image: url("./Images/petground.jpg");
+    height: 170px;
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+    font-size: 37px;
+    padding: 0 181px 0 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text2 {
+    font-size: 15px;
+}
+
+/* --------------- Main --------------- */
+#container1 {
+    padding: 70px 0 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#container2 {
+    width: 560px;
+}
+
+#container3 {
+    font-family: 'Comfortaa', cursive;
+    color: #E42E46;
+    font-size: 30px;
+    font-weight: 300;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#container4 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    margin: 0 0 14.4px;
+    width: 520px;
+    display: flex;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+
+#container5 {
+    width: 530px;
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 13px;
+}
+
+#container6 {
+    width: 559;
+    height: 545px;
+    display: flex;
+    padding-top: 56px;
+}
+
+#container7 {
+    display: flex;
+    flex-direction: column;
+    width: 1118px;
+    margin-top: 30px;
+    font-family: comfortaa,Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    text-align: left;
+}
+
+#container8 {
+    background-image: linear-gradient(to bottom, #3E6ED6, #2D56A7, #1B3E76, #0B284A);
+    height: 219px;
+    font-family: 'Montserrat', sans-serif;  
+    color: #FFFFFF;
+    font-size: 33px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.store {
+    width: 255px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#store2 {
+    width: 559px;
+    height: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#contact2 {
+    display: flex;
+    padding-top: 25px;
+    gap: 15px;
+}
+
+#contact2:hover {
+    opacity: 0.7;
+    transition: 2s;
+}
+
+.ctt {
+    width: 231px;
+    height: 48px;
+    border-radius: 80px 80px 80px 80px;
+}
+
+
+/* --------------- Footer --------------- */
+#container9 {
+    height: 280.4px;
+    background-color: #FFFFFF;
+    padding: 50px 0 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    line-height: 1.7em;
+
+}
+
+#slogan {
+    font-size: 19px;
+    color: #EF000B;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+#logo2 {
+    padding: 10px;
+}
+
+#infos2 {
+    font-size: 16px;
+}
+
+.title {
+    font-size: 22px;
+    padding: 28px 0 8px 0;
+    font-weight: 600;
+}
+
+#end {
+    background-color: #424143;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 14px;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#end2 {
+    font-size: 36px;
+}
+
+/* #end2 {
+    display: flex;
+    justify-content: end;
+} */
